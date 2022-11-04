@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(230, 201, 163);
+    margin: 0;
+    text-align: center;
+    color: beige;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.paragraph{
+    margin: 50px;
+    font-family: 'Sedgwick Ave', cursive;
+    font-size: xx-large;
+    color: darkgoldenrod;
+}
+
+.para-text{
+    color: rgb(141, 66, 66);
+    font-family: 'UnifrakturMaguntia', cursive;
+
+
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.score-r {
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+.container {
+    display: flex; 
+    margin: 50px auto;
+    justify-content: space-around;
+    background: #1B244A;
+    height: 250px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+button {
+    background: rgb(122, 233, 224);
+}

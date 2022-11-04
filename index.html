@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+
+        <p class="paragraph"> Basketball Scoreboard</p>
+        <div class="container">
+
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 class="score-r" id="home-score-r">0</h2>
+                <div>
+                    <button onclick="scoreIncrementByOne()">+1</button>
+                    <button onclick="scoreIncrementByTwo()">+2</button>
+                    <button onclick="scoreIncrementByThree()">+3</button>
+                </div>
+            </div>
+
+            <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score-r" id="guest-score-r">0</h2>
+                <div>
+                    <button onclick="guetScoreIncrementByOne()">+1</button>
+                    <button onclick="guetScoreIncrementByTwo()">+2</button>
+                    <button onclick="guetScoreIncrementByThree()">+3</button>
+                </div>
+            </div>
+
+        </div>
+        <p class="para-text">This Scoreboard is for two team who are playing Basketball</p>
+       
+        <script src="index.js"></script>
+    </body>
+</html>
